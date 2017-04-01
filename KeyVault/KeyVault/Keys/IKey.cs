@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault
+namespace EasyAzure.KeyVault.Keys
 {
     public interface IKey : IDisposable
     {

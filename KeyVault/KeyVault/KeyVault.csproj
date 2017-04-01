@@ -65,17 +65,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IClient.cs" />
-    <Compile Include="IKey.cs" />
+    <Compile Include="Client\IClient.cs" />
+    <Compile Include="Helper\AesEncryption.cs" />
+    <Compile Include="Keys\IKey.cs" />
     <Compile Include="HttpMessageHandler.cs" />
-    <Compile Include="Client.cs" />
-    <Compile Include="Key.cs" />
+    <Compile Include="Client\Client.cs" />
+    <Compile Include="Keys\Key.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secrets\ISecret.cs" />
+    <Compile Include="Secrets\ISecureSecret.cs" />
+    <Compile Include="Secrets\Secret.cs" />
+    <Compile Include="Secrets\SecureSecret.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="KeyVault.nuspec" />
-    <None Include="nuget-publish.ps1" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,9 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System;
 using Microsoft.Azure.KeyVault;
-using Microsoft.IdentityModel.Clients.ActiveDirectory;
-using System;
 
-namespace EasyAzure.KeyVault
+namespace EasyAzure.KeyVault.Client
 {
     public interface IClient : IDisposable
     {

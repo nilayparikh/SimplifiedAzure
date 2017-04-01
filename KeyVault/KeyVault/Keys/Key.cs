@@ -1,12 +1,11 @@
-﻿using Microsoft.Azure.KeyVault.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Text;
 using System.Threading.Tasks;
+using EasyAzure.KeyVault.Client;
 using Microsoft.Azure.KeyVault;
+using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault
+namespace EasyAzure.KeyVault.Keys
 {
     public class Key : IKey
     {
