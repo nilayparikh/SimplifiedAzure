@@ -253,3 +253,4 @@ paket-files/
 KeyVault.Tests
 /EasyAzure.sln
 packages
+*.exe
