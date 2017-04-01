@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>EasyAzure.KeyVault</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>nilayparikh</authors>
+    <owners>nilayparikh</owners>
+    <licenseUrl>https://opensource.org/licenses/MS-PL</licenseUrl>
+    <!--projectUrl></projectUrl>
+    <iconUrl></iconUrl-->
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Easy implementation of Key Vault Lib</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Auzre KeyVault</tags>
+  </metadata>
+</package>
