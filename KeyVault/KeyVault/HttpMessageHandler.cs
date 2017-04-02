@@ -27,7 +27,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace EasyAzure.KeyVault
+namespace SimplifiedAzure.KeyVault
 {
     public class HttpMessageHandler : DelegatingHandler
     {

@@ -1,18 +1,40 @@
 <?xml version="1.0"?>
 <package >
   <metadata>
-    <id>EasyAzure.KeyVault</id>
-    <version>$version$</version>
-    <title>$title$</title>
-    <authors>nilayparikh</authors>
+    <!-- Id -->
+    <id>SimplifiedAzure.KeyVault</id>
+    
+    <!-- Metadata -->
+    <version>0.0.1-alpha</version>
+    <title>SimplifiedAzure.KeyVault</title>
+    <projectUrl>https://blog.nilayparikh.com/oss/eazy-azure/key-vault/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/nilayparikh/SimplifiedAzure/master/images/easy-azure-key-vault-icon.png</iconUrl>
+
+    <!-- Credits -->
+    <authors>Nilay Parikh</authors>
     <owners>nilayparikh</owners>
-    <licenseUrl>https://opensource.org/licenses/MS-PL</licenseUrl>
-    <!--projectUrl></projectUrl>
-    <iconUrl></iconUrl-->
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Easy implementation of Key Vault Lib</description>
-    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+
+    <!-- Copyright -->
     <copyright>Copyright 2017</copyright>
+    <licenseUrl>https://www.gnu.org/licenses/gpl.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+    
+    <!-- Dependancies -->
+    <dependencies>
+      <dependency id="Microsoft.Azure.KeyVault" version="2.0.6"  />
+      <dependency id="Microsoft.Azure.KeyVault.WebKey" version="2.0.4" />
+      <dependency id="Microsoft.IdentityModel.Clients.ActiveDirectory" version="2.28.3"  />
+      <dependency id="Microsoft.Rest.ClientRuntime" version="2.3.2"/>
+      <dependency id="Microsoft.Rest.ClientRuntime.Azure" version="3.3.1"  />
+      <dependency id="Newtonsoft.Json" version="6.0.8" />
+    </dependencies>
+    
+    <!-- Log -->
+    <description>Simplified version of Key Vault API.</description>
+    <releaseNotes>Initial version of the wrapper.</releaseNotes>
+    
+    <!-- Tags -->
     <tags>Auzre KeyVault</tags>
   </metadata>
 </package>

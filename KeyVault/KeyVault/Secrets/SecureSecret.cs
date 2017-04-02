@@ -21,12 +21,12 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 using System;
 using System.Threading.Tasks;
-using EasyAzure.KeyVault.Client;
-using EasyAzure.KeyVault.Helper;
+using SimplifiedAzure.KeyVault.Client;
+using SimplifiedAzure.KeyVault.Helper;
 using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault.Secrets
+namespace SimplifiedAzure.KeyVault.Secrets
 {
     public class SecureSecret : Secret, ISecureSecret
     {

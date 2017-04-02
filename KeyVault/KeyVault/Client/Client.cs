@@ -24,7 +24,7 @@ using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault;
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
-namespace EasyAzure.KeyVault.Client
+namespace SimplifiedAzure.KeyVault.Client
 {
     public class Client : IClient
     {

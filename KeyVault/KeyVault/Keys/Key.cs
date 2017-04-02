@@ -22,11 +22,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
 using System.Text;
 using System.Threading.Tasks;
-using EasyAzure.KeyVault.Client;
+using SimplifiedAzure.KeyVault.Client;
 using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault.Keys
+namespace SimplifiedAzure.KeyVault.Keys
 {
     public class Key : IKey
     {

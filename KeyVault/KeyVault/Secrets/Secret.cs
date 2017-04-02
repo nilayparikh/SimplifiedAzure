@@ -25,13 +25,13 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using EasyAzure.KeyVault.Client;
-using EasyAzure.KeyVault.Keys;
+using SimplifiedAzure.KeyVault.Client;
+using SimplifiedAzure.KeyVault.Keys;
 using Microsoft.Azure.KeyVault;
 using Microsoft.Azure.KeyVault.Models;
 using Microsoft.Azure.KeyVault.WebKey;
 
-namespace EasyAzure.KeyVault.Secrets
+namespace SimplifiedAzure.KeyVault.Secrets
 {
     public class Secret : ISecret
     {

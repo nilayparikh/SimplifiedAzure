@@ -23,7 +23,7 @@ using System;
 using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault.Keys
+namespace SimplifiedAzure.KeyVault.Keys
 {
     public interface IKey : IDisposable
     {

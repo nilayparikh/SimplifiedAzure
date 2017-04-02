@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System.Threading.Tasks;
 using Microsoft.Azure.KeyVault.Models;
 
-namespace EasyAzure.KeyVault.Secrets
+namespace SimplifiedAzure.KeyVault.Secrets
 {
     public interface ISecret
     {

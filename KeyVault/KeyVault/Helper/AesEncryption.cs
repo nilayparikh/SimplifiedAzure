@@ -27,7 +27,7 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EasyAzure.KeyVault.Helper
+namespace SimplifiedAzure.KeyVault.Helper
 {
     public class AesEncryption
     {

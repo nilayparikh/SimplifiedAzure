@@ -22,7 +22,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 using System;
 using Microsoft.Azure.KeyVault;
 
-namespace EasyAzure.KeyVault.Client
+namespace SimplifiedAzure.KeyVault.Client
 {
     public interface IClient : IDisposable
     {
